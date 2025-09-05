@@ -3,7 +3,7 @@
 
 ezLeapp provides an intuitive graphical interface for the powerful iLEAPP (iOS Logs, Events, And Plists Parser) digital forensics tool, making iOS device analysis more accessible and streamlined for forensic investigators.
 
-## 🚀 Features
+## Features
 
 ### Core Functionality
 - **Modern Dark GUI**: Clean, professional interface built with CustomTkinter
@@ -25,12 +25,12 @@ ezLeapp provides an intuitive graphical interface for the powerful iLEAPP (iOS L
 - **Clean Output**: Optional output directory cleanup
 - **Cancellation Support**: Ability to cancel running analyses safely
 
-## 📋 Prerequisites
+## Prerequisites
 
 - **iLEAPP**: The actual iLEAPP tool (must be installed separately)
 
 
-## 🛠️ Installation
+##  Installation
 
 1. **Download** the latest release for your platform:
    - **Windows**: `ezLeapp.exe`
@@ -41,7 +41,7 @@ ezLeapp provides an intuitive graphical interface for the powerful iLEAPP (iOS L
 
 No additional dependencies required - everything is bundled in the executable.
 
-## 🚀 Quick Start
+## Quick Start
 
 1. **Launch ezLeapp**:
    - **Windows**: Double-click `ezLeapp.exe` or run from command line
@@ -52,7 +52,7 @@ No additional dependencies required - everything is bundled in the executable.
 5. **Configure Options**: Set timezone, input type, and analysis options
 6. **Run Analysis**: Click "Run ezLEAPP Analysis"
 
-## 🎛️ Configuration Options
+## Configuration Options
 
 ### Paths & Input
 - **iLEAPP Executable**: Path to your iLEAPP installation
@@ -73,7 +73,7 @@ No additional dependencies required - everything is bundled in the executable.
 - **Clean Output Folder**: Remove files after analysis
 - **Auto-Export Log**: Automatically save analysis logs
 
-## 📊 System Monitoring
+## System Monitoring
 
 ezLeapp provides real-time monitoring during analysis:
 - **CPU Usage**: Live CPU utilization tracking
@@ -81,7 +81,7 @@ ezLeapp provides real-time monitoring during analysis:
 - **Progress Bar**: Visual analysis progress indicator
 - **Status Updates**: Real-time status and phase information
 
-## 📋 Log Management
+## Log Management
 
 ### Log Features
 - **Session Tracking**: Complete analysis session recording
@@ -113,7 +113,7 @@ ileapp.exe -t zip -i "input.zip" -o "output_folder" -tz "UTC" -w
 - `-tz`: Timezone for timestamp conversion
 - `-w`: Recursive/wide scan mode
 
-## 🗂️ Application Structure
+## Application Structure
 
 ```
 ezLeapp/
@@ -124,7 +124,7 @@ ezLeapp/
 
 Configuration and log files are created in the same directory as the executable.
 
-## 🔒 Security & Integrity
+## Security & Integrity
 
 - **Hash Verification**: Ensure file integrity throughout analysis
 - **Input Validation**: Comprehensive checks prevent invalid operations
@@ -153,14 +153,15 @@ Configuration and log files are created in the same directory as the executable.
 - Right-click → Properties → Unblock or add to antivirus exceptions
 - Windows Defender may require approval for unknown executable
 
-## 📄 License
+## License
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
+- **Alexis Brignoni**: For bringing iLEAPP to life 
 - **iLEAPP Team**: For the powerful forensics engine
 - **CustomTkinter**: For the modern GUI framework
 
-## 📈 Version History
+## Version History
 
 ### v2.0 (Current)
 - Modern CustomTkinter interface
@@ -175,4 +176,4 @@ Configuration and log files are created in the same directory as the executable.
 
 ---
 
-**⚖️ Legal Notice**: This tool is intended for legitimate digital forensics and cybersecurity purposes only. Users are responsible for ensuring compliance with applicable laws and regulations.
+**Legal Notice**: This tool is intended for legitimate digital forensics and cybersecurity purposes only. Users are responsible for ensuring compliance with applicable laws and regulations.
